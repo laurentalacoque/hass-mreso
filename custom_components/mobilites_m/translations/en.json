@@ -1,0 +1,29 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Select a bus or tram line",
+        "data": {
+          "route_id": "Line"
+        }
+      },
+      "stop": {
+        "title": "Select the departure stop",
+        "data": {
+          "stop_name": "Departure stop"
+        }
+      },
+      "direction": {
+        "title": "Select direction and destination",
+        "data": {
+          "direction_key": "Direction",
+          "dest_stop_name": "Arrival stop",
+          "add_roundtrip": "Also create the return trip"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Unable to connect to the Mobilités M API."
+    }
+  }
+}

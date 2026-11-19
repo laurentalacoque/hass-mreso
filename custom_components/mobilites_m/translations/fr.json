@@ -1,0 +1,29 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Choisir une ligne de bus ou tram",
+        "data": {
+          "route_id": "Ligne"
+        }
+      },
+      "stop": {
+        "title": "Choisir l'arrêt de départ",
+        "data": {
+          "stop_name": "Arrêt de départ"
+        }
+      },
+      "direction": {
+        "title": "Choisir la direction et l'arrivée",
+        "data": {
+          "direction_key": "Direction",
+          "dest_stop_name": "Arrêt d'arrivée",
+          "add_roundtrip": "Créer également le trajet retour"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Impossible de se connecter à l'API Mobilités M."
+    }
+  }
+}
