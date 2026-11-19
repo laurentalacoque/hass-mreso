@@ -150,7 +150,7 @@ class MobilitesMCard extends HTMLElement {
     `;
 
     if (passages.length === 0) {
-      html += `<div class="empty">Aucun passage à venir gg</div>`;
+      html += `<div class="empty">Aucun passage à venir</div>`;
     } else {
       passages.forEach((p, idx) => {
         const waitLabel = p.wait_minutes === 0 ? "À l'approche" : `${p.wait_minutes} min`;
