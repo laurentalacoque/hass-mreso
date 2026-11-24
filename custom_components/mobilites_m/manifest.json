@@ -1,11 +1,13 @@
 {
   "domain": "mobilites_m",
   "name": "Mobilités M / M réso (TAG / SMMAG)",
+  "categories": ["local_services", "vehicles_transport.public_transport"],
   "codeowners": ["@laurentalacoque"],
   "config_flow": true,
   "dependencies": ["frontend", "http"],
   "documentation": "https://github.com/laurentalacoque/hass-mreso",
   "iot_class": "cloud_polling",
   "issue_tracker": "https://github.com/laurentalacoque/hass-mreso/issues",
-  "version": "1.0.1"
+  "version": "1.1.0"
 }
+
